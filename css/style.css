@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+:root {
+  --mainTextColor: #000;
+  --secondaryTextColor: (51 51 51);
+  --mainLinkColor: #0da2b8;
+  --mainBorderColor: rgb(218, 218, 218);
+  --mainBgColor: rgb(249, 250, 251);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .2s linear; 
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 62.5%;
+  text-decoration: none;
+  line-height: 1.5;
+  color: var(--mainTextColor);
+  background-color: var(--mainBgColor);
+}
+
+ul {
+  list-style: none;
+  margin: 1rem 0 0 3rem;
+}
+
+li {
+  line-height: 2;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondaryTextColor);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--mainLinkColor);
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+p {
+  color: var(--secondaryTextColor);
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* header section */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.header .content h1 {
+  font-size: 4.8rem;
+  line-height: 1;
+}
+
+.header .content .en-name {
+  font-size: 3.6rem;
+}
+
+.header .content p {
+  font-weight: 300;
+  margin-top: 1.5rem;
+}
+
+.header .content .email {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+/* links section */
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* tech section */
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.tech-container .tech-card {
+  border: 1px solid var(--mainBorderColor);
+  border-radius: .5rem;
+  padding: 1rem 1.8rem;
+}

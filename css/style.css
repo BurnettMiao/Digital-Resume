@@ -173,14 +173,20 @@ strong {
   /* header section */
   .header {
     flex-direction: column;
+    gap: 1.8rem;
   }
 
   .header img {
     width: 20rem;
   }
 
-  .header h1 {
+  .header .content h1 {
     text-align: center;
+    font-size: 3.8rem;
+  }
+
+  .header .content .en-name {
+    font-size: 2.8rem;
   }
 
   /* links section */
@@ -191,5 +197,6 @@ strong {
   /* work history section */
   .work-history-card {
     border-left: none;
+    padding-left: 0;
   }
 }

@@ -111,6 +111,17 @@ strong {
   flex-wrap: wrap;
 }
 
+.link-card {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.link-card img {
+  width: 2.1rem;
+  height: auto;
+}
+
 /* skill section */
 .skill ul {
   list-style: none;

@@ -115,11 +115,17 @@ strong {
   display: flex;
   align-items: center;
   gap: .6rem;
+  cursor: pointer;
 }
 
-.link-card img {
-  width: 2.1rem;
-  height: auto;
+.link-card i {
+  font-size: 2.5rem;
+  color: var(--mainTextColor);
+}
+
+.link-card:hover i,
+.link-card:hover a {
+  color: var(--mainLinkColor);
 }
 
 /* skill section */
@@ -165,10 +171,27 @@ strong {
   font-weight: 300;
 }
 
+.work-history-card-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.work-history-card img {
+  width: 2.1rem;
+}
+
 /* project & accomplishment */
 .project-card {
   padding: 1.5rem 0;
   border-top: 1px solid var(--mainBorderColor);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-card i {
+  font-size: 2.2rem;
 }
 
 .project-card a {
@@ -177,7 +200,8 @@ strong {
   cursor: pointer;
 }
 
-.project-card a:hover {
+.project-card:hover a,
+.project-card:hover i {
   color: var(--mainLinkColor);
 }
 

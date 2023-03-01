@@ -231,6 +231,11 @@ strong {
     gap: 1rem;
   }
 
+  /* skill section */
+  .skill ul {
+    margin-left: 0;
+  }
+
   /* work history section */
   .work-history-card {
     border-left: none;
